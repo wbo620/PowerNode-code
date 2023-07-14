@@ -1,0 +1,545 @@
+2023-07-14 11:08:00.230 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:08:00.231 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:08:00.243 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:08:00.243 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:08:00.243 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:08:00.244 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:08:00.266 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 11:08:00.436 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1547398254.
+2023-07-14 11:08:00.436 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:08:00.438 [main] DEBUG fdfsf.insertCar - ==>  Preparing: insert into t_car(id, car_num, brand, guide_price, produce_time, car_type) values (null, ?, ?, ?, ?, ?);
+2023-07-14 11:08:00.453 [main] DEBUG fdfsf.insertCar - ==> Parameters: 1111(String), 拉法(String), 1999.0(String), 2019-1-1(String), 燃油车(String)
+2023-07-14 11:08:00.456 [main] DEBUG fdfsf.insertCar - <==    Updates: 1
+2023-07-14 11:08:00.456 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:08:00.458 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:08:00.459 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:08:00.459 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1547398254 to pool.
+2023-07-14 11:16:56.192 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:16:56.194 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:16:56.204 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:16:56.205 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:16:56.205 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:16:56.205 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:16:56.227 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 11:16:56.394 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1547398254.
+2023-07-14 11:16:56.394 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:16:56.395 [main] DEBUG fdfsf.deleteCar - ==>  Preparing: delete from t_car where car_num = ?;
+2023-07-14 11:16:56.411 [main] DEBUG fdfsf.deleteCar - ==> Parameters: 1111(String)
+2023-07-14 11:16:56.415 [main] DEBUG fdfsf.deleteCar - <==    Updates: 1
+2023-07-14 11:16:56.416 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:16:56.417 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:16:56.417 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:16:56.417 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1547398254 to pool.
+2023-07-14 11:17:32.397 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:17:32.398 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:17:32.409 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:17:32.409 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:17:32.409 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:17:32.410 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:17:32.432 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 11:17:32.601 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1547398254.
+2023-07-14 11:17:32.601 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:17:32.603 [main] DEBUG fdfsf.deleteCar - ==>  Preparing: delete from t_car where car_num = ?;
+2023-07-14 11:17:32.618 [main] DEBUG fdfsf.deleteCar - ==> Parameters: 1003(String)
+2023-07-14 11:17:32.620 [main] DEBUG fdfsf.deleteCar - <==    Updates: 4
+2023-07-14 11:17:32.620 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:17:32.622 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:17:32.622 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:17:32.622 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1547398254 to pool.
+2023-07-14 11:20:52.174 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:20:52.175 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:20:52.186 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:20:52.186 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:20:52.186 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:20:52.186 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:20:52.209 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 11:20:52.377 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1547398254.
+2023-07-14 11:20:52.378 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:20:52.380 [main] DEBUG fdfsf.deleteCar - ==>  Preparing: delete from t_car where car_num = ?;
+2023-07-14 11:20:52.395 [main] DEBUG fdfsf.deleteCar - ==> Parameters: 1001(String)
+2023-07-14 11:20:52.397 [main] DEBUG fdfsf.deleteCar - <==    Updates: 1
+2023-07-14 11:20:52.398 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:20:52.399 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:20:52.400 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:20:52.400 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1547398254 to pool.
+2023-07-14 11:21:26.563 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:21:26.565 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:21:26.575 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:21:26.575 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:21:26.576 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:21:26.576 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:21:26.599 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 11:21:26.784 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1547398254.
+2023-07-14 11:21:26.784 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:21:26.786 [main] DEBUG fdfsf.insertCar - ==>  Preparing: insert into t_car(id, car_num, brand, guide_price, produce_time, car_type) values (null, ?, ?, ?, ?, ?);
+2023-07-14 11:21:26.803 [main] DEBUG fdfsf.insertCar - ==> Parameters: 1111(String), 拉法(String), 1999.0(String), 2019-1-1(String), 燃油车(String)
+2023-07-14 11:21:26.811 [main] DEBUG fdfsf.insertCar - <==    Updates: 1
+2023-07-14 11:21:26.812 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:21:26.813 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:21:26.813 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:21:26.813 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1547398254 to pool.
+2023-07-14 11:21:41.308 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:21:41.310 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:21:41.319 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:21:41.320 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:21:41.320 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:21:41.320 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:21:41.344 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 11:21:41.508 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1547398254.
+2023-07-14 11:21:41.508 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:21:41.510 [main] DEBUG fdfsf.updateCar - ==>  Preparing: update t_car set (brand=?,guide_price= ?,produce_time= ?, car_type=? ) where car_num = ?;
+2023-07-14 11:21:41.526 [main] DEBUG fdfsf.updateCar - ==> Parameters: 福特(String), 30.0(String), null, null, 1111(String)
+2023-07-14 11:21:54.348 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:21:54.349 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:21:54.360 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:21:54.360 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:21:54.360 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:21:54.360 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:21:54.385 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 11:21:54.546 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1547398254.
+2023-07-14 11:21:54.546 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:21:54.548 [main] DEBUG fdfsf.updateCar - ==>  Preparing: update t_car set (brand=?,guide_price= ?,produce_time= ?, car_type=? ) where car_num = ?;
+2023-07-14 11:21:54.563 [main] DEBUG fdfsf.updateCar - ==> Parameters: 福特(String), 30.0(String), null, null, 1111(String)
+2023-07-14 11:25:49.786 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:25:49.788 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:25:49.810 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:25:49.810 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:25:49.810 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:25:49.810 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:25:49.833 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 11:25:50.007 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1547398254.
+2023-07-14 11:25:50.008 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:25:50.009 [main] DEBUG fdfsf.updateCar - ==>  Preparing: update t_car set (brand=?,guide_price= ?,produce_time= ?, car_type=? ) where car_num = ?;
+2023-07-14 11:25:50.024 [main] DEBUG fdfsf.updateCar - ==> Parameters: 福特(String), 30.0(String), 2000-11-12(String), 电车(String), 1111(String)
+2023-07-14 11:33:05.995 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:33:05.996 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:33:06.009 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:33:06.009 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:33:06.009 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:33:06.009 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:33:06.036 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 11:33:06.228 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1547398254.
+2023-07-14 11:33:06.228 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:33:06.230 [main] DEBUG fdfsf.insertCar - ==>  Preparing: insert into t_car(id, car_num, brand, guide_price, produce_time, car_type) values (null, ?, ?, ?, ?, ?);
+2023-07-14 11:33:06.247 [main] DEBUG fdfsf.insertCar - ==> Parameters: null, null, null, null, null
+2023-07-14 11:33:06.248 [main] DEBUG fdfsf.insertCar - <==    Updates: 1
+2023-07-14 11:33:06.249 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:33:06.250 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:33:06.251 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:33:06.251 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1547398254 to pool.
+2023-07-14 11:34:51.768 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:34:51.769 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:34:51.780 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:34:51.780 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:34:51.780 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:34:51.780 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:34:51.804 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 11:34:51.975 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1547398254.
+2023-07-14 11:34:51.975 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:34:51.977 [main] DEBUG fdfsf.insertCar - ==>  Preparing: insert into t_car(id, car_num, brand, guide_price, produce_time, car_type) values (null, ?, ?, ?, ?, ?);
+2023-07-14 11:34:51.992 [main] DEBUG fdfsf.insertCar - ==> Parameters: 1111(String), 拉法(String), 1999.0(String), 2019-1-1(String), 燃油车(String)
+2023-07-14 11:34:51.995 [main] DEBUG fdfsf.insertCar - <==    Updates: 1
+2023-07-14 11:34:51.995 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:34:51.997 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:34:51.998 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c3b6c6e]
+2023-07-14 11:34:51.998 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1547398254 to pool.
+2023-07-14 11:48:33.812 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:48:33.813 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 11:48:33.823 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:48:33.824 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:48:33.824 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:48:33.824 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 11:48:33.847 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 11:48:34.014 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 934740803.
+2023-07-14 11:48:34.015 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37b70343]
+2023-07-14 11:48:34.016 [main] DEBUG fdfsf.insertCar - ==>  Preparing: insert into t_car(id, car_num, brand, guide_price, produce_time, car_type) values (null, ?, ?, ?, ?, ?);
+2023-07-14 11:48:34.033 [main] DEBUG fdfsf.insertCar - ==> Parameters: 1002(String), 比亚迪(String), 20.1(Double), 2001-1-1(String), 电动(String)
+2023-07-14 11:48:34.036 [main] DEBUG fdfsf.insertCar - <==    Updates: 1
+2023-07-14 11:48:34.036 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37b70343]
+2023-07-14 11:48:34.038 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37b70343]
+2023-07-14 11:48:34.038 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37b70343]
+2023-07-14 11:48:34.038 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 934740803 to pool.
+2023-07-14 12:09:21.291 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:09:21.293 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:09:21.304 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:09:21.304 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:09:21.304 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:09:21.304 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:09:21.327 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 12:09:21.495 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1979055448.
+2023-07-14 12:09:21.495 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@75f5fd58]
+2023-07-14 12:09:21.497 [main] DEBUG fdfsf.deleteCarBycar_num - ==>  Preparing: delete from t_car where car_num = ?;
+2023-07-14 12:09:21.512 [main] DEBUG fdfsf.deleteCarBycar_num - ==> Parameters: 1003(Integer)
+2023-07-14 12:09:21.515 [main] DEBUG fdfsf.deleteCarBycar_num - <==    Updates: 0
+2023-07-14 12:09:21.515 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@75f5fd58]
+2023-07-14 12:09:21.515 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@75f5fd58]
+2023-07-14 12:09:21.516 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@75f5fd58]
+2023-07-14 12:09:21.516 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1979055448 to pool.
+2023-07-14 12:09:52.821 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:09:52.823 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:09:52.833 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:09:52.833 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:09:52.834 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:09:52.834 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:09:52.858 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 12:09:53.030 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1979055448.
+2023-07-14 12:09:53.031 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@75f5fd58]
+2023-07-14 12:09:53.032 [main] DEBUG fdfsf.deleteCarBycar_num - ==>  Preparing: delete from t_car where car_num = ?;
+2023-07-14 12:09:53.047 [main] DEBUG fdfsf.deleteCarBycar_num - ==> Parameters: 1003(Integer)
+2023-07-14 12:09:53.049 [main] DEBUG fdfsf.deleteCarBycar_num - <==    Updates: 1
+2023-07-14 12:09:53.050 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@75f5fd58]
+2023-07-14 12:09:53.051 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@75f5fd58]
+2023-07-14 12:09:53.051 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@75f5fd58]
+2023-07-14 12:09:53.051 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1979055448 to pool.
+2023-07-14 12:20:40.123 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:20:40.124 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:20:40.134 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:20:40.134 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:20:40.134 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:20:40.134 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:20:56.325 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:20:56.326 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:20:56.337 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:20:56.337 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:20:56.337 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:20:56.337 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:21:54.031 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:21:54.032 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:21:54.042 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:21:54.042 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:21:54.042 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:21:54.042 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:21:54.064 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 12:21:54.239 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 934740803.
+2023-07-14 12:21:54.239 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37b70343]
+2023-07-14 12:21:54.241 [main] DEBUG fdfsf.updateCarBycar_num - ==>  Preparing: update t_car set (brand=?,guide_price= ?,produce_time= ?, car_type=? ) where car_num = ?;
+2023-07-14 12:21:54.256 [main] DEBUG fdfsf.updateCarBycar_num - ==> Parameters: 凯美瑞(String), 30.3(Double), 1999-11-10(String), 撚油车(String), 9999(String)
+2023-07-14 12:22:26.939 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:22:26.940 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:22:26.950 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:22:26.950 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:22:26.950 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:22:26.950 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:22:26.973 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 12:22:27.140 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 934740803.
+2023-07-14 12:22:27.140 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37b70343]
+2023-07-14 12:22:27.141 [main] DEBUG fdfsf.updateCarBycar_num - ==>  Preparing: update t_car set (brand=?,guide_price= ?,produce_time= ?, car_type=? ) where car_num = ?;
+2023-07-14 12:22:27.157 [main] DEBUG fdfsf.updateCarBycar_num - ==> Parameters: 凯美瑞(String), 30.3(Double), 1999-11-10(String), 撚油车(String), 1002(String)
+2023-07-14 12:25:04.606 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:25:04.607 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:25:04.619 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:25:04.619 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:25:04.619 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:25:04.619 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:25:04.642 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 12:25:04.807 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 934740803.
+2023-07-14 12:25:04.807 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37b70343]
+2023-07-14 12:25:04.808 [main] DEBUG fdfsf.updateCarBycar_num - ==>  Preparing: update t_car set brand=? ,guide_price= ? ,produce_time= ? , car_type=? where car_num = ?;
+2023-07-14 12:25:04.825 [main] DEBUG fdfsf.updateCarBycar_num - ==> Parameters: 凯美瑞(String), 30.3(Double), 1999-11-10(String), 撚油车(String), 1002(String)
+2023-07-14 12:25:04.828 [main] DEBUG fdfsf.updateCarBycar_num - <==    Updates: 1
+2023-07-14 12:25:04.828 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37b70343]
+2023-07-14 12:25:04.829 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37b70343]
+2023-07-14 12:25:04.830 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37b70343]
+2023-07-14 12:25:04.830 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 934740803 to pool.
+2023-07-14 12:26:19.561 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:26:19.563 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:26:19.573 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:26:19.574 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:26:19.574 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:26:19.574 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:26:19.597 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 12:26:19.762 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 934740803.
+2023-07-14 12:26:19.762 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37b70343]
+2023-07-14 12:26:19.764 [main] DEBUG fdfsf.updateCarBycar_num - ==>  Preparing: update t_car set brand=? ,guide_price= ? ,produce_time= ? , car_type=? where car_num = ?;
+2023-07-14 12:26:19.780 [main] DEBUG fdfsf.updateCarBycar_num - ==> Parameters: 凯美瑞(String), 30.3(Double), 1999-11-10(String), 撚油车(String), 9999(String)
+2023-07-14 12:26:19.782 [main] DEBUG fdfsf.updateCarBycar_num - <==    Updates: 0
+2023-07-14 12:26:19.782 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37b70343]
+2023-07-14 12:26:19.783 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37b70343]
+2023-07-14 12:26:19.783 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37b70343]
+2023-07-14 12:26:19.783 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 934740803 to pool.
+2023-07-14 12:26:29.206 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:26:29.207 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:26:29.217 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:26:29.217 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:26:29.217 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:26:29.217 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:26:29.242 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 12:26:29.406 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 934740803.
+2023-07-14 12:26:29.406 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37b70343]
+2023-07-14 12:26:29.407 [main] DEBUG fdfsf.updateCarBycar_num - ==>  Preparing: update t_car set brand=? ,guide_price= ? ,produce_time= ? , car_type=? where car_num = ?;
+2023-07-14 12:26:29.423 [main] DEBUG fdfsf.updateCarBycar_num - ==> Parameters: 凯美瑞(String), 30.3(Double), 1999-11-10(String), 撚油车(String), 1111(String)
+2023-07-14 12:26:29.426 [main] DEBUG fdfsf.updateCarBycar_num - <==    Updates: 2
+2023-07-14 12:26:29.426 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37b70343]
+2023-07-14 12:26:29.427 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37b70343]
+2023-07-14 12:26:29.428 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37b70343]
+2023-07-14 12:26:29.428 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 934740803 to pool.
+2023-07-14 12:29:10.765 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:29:10.766 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:29:10.780 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:29:10.780 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:29:10.780 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:29:10.780 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:29:10.805 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 12:29:10.979 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1527214863.
+2023-07-14 12:29:10.979 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5b07730f]
+2023-07-14 12:29:10.981 [main] DEBUG fdfsf.selectCarBycar_num - ==>  Preparing: select id, car_num, brand, guide_price, produce_time, car_type from t_car where car_num = ?;
+2023-07-14 12:29:10.997 [main] DEBUG fdfsf.selectCarBycar_num - ==> Parameters: 1111(Integer)
+2023-07-14 12:30:48.953 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:30:48.955 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:30:48.966 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:30:48.967 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:30:48.967 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:30:48.967 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:30:48.990 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 12:30:49.160 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1527214863.
+2023-07-14 12:30:49.160 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5b07730f]
+2023-07-14 12:30:49.162 [main] DEBUG fdfsf.selectCarBycar_num - ==>  Preparing: select id, car_num, brand, guide_price, produce_time, car_type from t_car where car_num = ?;
+2023-07-14 12:30:49.178 [main] DEBUG fdfsf.selectCarBycar_num - ==> Parameters: 1111(String)
+2023-07-14 12:31:27.280 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:31:27.281 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:31:27.291 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:31:27.292 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:31:27.292 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:31:27.292 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:31:27.316 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 12:31:27.484 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1527214863.
+2023-07-14 12:31:27.484 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5b07730f]
+2023-07-14 12:31:27.486 [main] DEBUG fdfsf.selectCarBycar_num - ==>  Preparing: select id, car_num, brand, guide_price, produce_time, car_type from t_car where car_num = ?;
+2023-07-14 12:31:27.502 [main] DEBUG fdfsf.selectCarBycar_num - ==> Parameters: 1111(String)
+2023-07-14 12:32:13.016 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:32:13.017 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:32:13.027 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:32:13.028 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:32:13.028 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:32:13.028 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:32:13.051 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 12:32:13.212 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1527214863.
+2023-07-14 12:32:13.212 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5b07730f]
+2023-07-14 12:32:13.214 [main] DEBUG fdfsf.selectCarBycar_num - ==>  Preparing: select id, car_num, brand, guide_price, produce_time, car_type from t_car where car_num = ?;
+2023-07-14 12:32:13.228 [main] DEBUG fdfsf.selectCarBycar_num - ==> Parameters: 1002(String)
+2023-07-14 12:35:40.479 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:35:40.480 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:35:40.490 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:35:40.490 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:35:40.490 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:35:40.490 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:35:40.514 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 12:35:40.678 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 259251414.
+2023-07-14 12:35:40.679 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 12:35:40.680 [main] DEBUG fdfsf.selectCarBycar_num - ==>  Preparing: select id, car_num, brand, guide_price, produce_time, car_type from t_car where car_num = ?;
+2023-07-14 12:35:40.696 [main] DEBUG fdfsf.selectCarBycar_num - ==> Parameters: 1002(String)
+2023-07-14 12:35:40.711 [main] DEBUG fdfsf.selectCarBycar_num - <==      Total: 1
+2023-07-14 12:35:40.715 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 12:35:40.716 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 12:35:40.716 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 259251414 to pool.
+2023-07-14 12:40:58.230 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:40:58.231 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 12:40:58.242 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:40:58.242 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:40:58.242 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:40:58.243 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 12:40:58.268 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 12:40:58.428 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 259251414.
+2023-07-14 12:40:58.429 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 12:40:58.431 [main] DEBUG fdfsf.selectCarBycar_num - ==>  Preparing: select id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType from t_car where car_num = ?;
+2023-07-14 12:40:58.447 [main] DEBUG fdfsf.selectCarBycar_num - ==> Parameters: 1002(String)
+2023-07-14 12:40:58.462 [main] DEBUG fdfsf.selectCarBycar_num - <==      Total: 1
+2023-07-14 12:40:58.466 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 12:40:58.467 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 12:40:58.467 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 259251414 to pool.
+2023-07-14 20:03:43.191 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:03:43.192 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:03:43.202 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:03:43.203 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:03:43.203 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:03:43.203 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:03:43.230 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 20:03:43.438 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 259251414.
+2023-07-14 20:03:43.438 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:03:43.439 [main] DEBUG fdfsf.selectCarBycar_num - ==>  Preparing: select id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType from t_car where car_num = ?;
+2023-07-14 20:03:43.455 [main] DEBUG fdfsf.selectCarBycar_num - ==> Parameters: 1002(String)
+2023-07-14 20:03:43.468 [main] DEBUG fdfsf.selectCarBycar_num - <==      Total: 1
+2023-07-14 20:03:43.473 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:03:43.473 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:03:43.474 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 259251414 to pool.
+2023-07-14 20:06:21.513 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:06:21.514 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:06:21.525 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:06:21.525 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:06:21.525 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:06:21.525 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:06:21.551 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 20:06:21.756 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 259251414.
+2023-07-14 20:06:21.757 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:06:21.758 [main] DEBUG fdfsf.selectAllCar - ==>  Preparing: select * from t_car;
+2023-07-14 20:06:21.773 [main] DEBUG fdfsf.selectAllCar - ==> Parameters: 
+2023-07-14 20:07:30.738 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:07:30.739 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:07:30.750 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:07:30.751 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:07:30.751 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:07:30.751 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:07:30.777 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 20:07:30.963 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 259251414.
+2023-07-14 20:07:30.963 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:07:30.964 [main] DEBUG fdfsf.selectAllCar - ==>  Preparing: select * from t_car;
+2023-07-14 20:07:30.979 [main] DEBUG fdfsf.selectAllCar - ==> Parameters: 
+2023-07-14 20:07:30.993 [main] DEBUG fdfsf.selectAllCar - <==      Total: 3
+2023-07-14 20:07:30.997 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:07:30.998 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:07:30.998 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 259251414 to pool.
+2023-07-14 20:09:04.187 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:09:04.189 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:09:04.203 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:09:04.203 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:09:04.203 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:09:04.203 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:09:04.229 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 20:09:04.406 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 259251414.
+2023-07-14 20:09:04.406 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:09:04.408 [main] DEBUG fdfsf.selectAllCar - ==>  Preparing: select id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType from t_car;
+2023-07-14 20:09:04.423 [main] DEBUG fdfsf.selectAllCar - ==> Parameters: 
+2023-07-14 20:09:04.438 [main] DEBUG fdfsf.selectAllCar - <==      Total: 3
+2023-07-14 20:09:04.443 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:09:04.444 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:09:04.444 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 259251414 to pool.
+2023-07-14 20:09:58.412 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:09:58.413 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:09:58.423 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:09:58.423 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:09:58.423 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:09:58.424 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:09:58.448 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 20:09:58.629 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 259251414.
+2023-07-14 20:09:58.629 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:09:58.631 [main] DEBUG fdfsf.selectAllCar - ==>  Preparing: select id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType from t_car;
+2023-07-14 20:09:58.645 [main] DEBUG fdfsf.selectAllCar - ==> Parameters: 
+2023-07-14 20:09:58.659 [main] DEBUG fdfsf.selectAllCar - <==      Total: 3
+2023-07-14 20:09:58.664 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:09:58.665 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:09:58.665 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 259251414 to pool.
+2023-07-14 20:13:21.179 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:13:21.181 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:13:21.192 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:13:21.192 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:13:21.192 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:13:21.192 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:13:21.216 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 20:13:21.393 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 259251414.
+2023-07-14 20:13:21.394 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:13:21.399 [main] DEBUG fdfsf.selectAllCar - ==>  Preparing: select id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType from t_car;
+2023-07-14 20:13:21.414 [main] DEBUG fdfsf.selectAllCar - ==> Parameters: 
+2023-07-14 20:13:21.428 [main] DEBUG fdfsf.selectAllCar - <==      Total: 3
+2023-07-14 20:13:21.433 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:13:21.433 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:13:21.433 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 259251414 to pool.
+2023-07-14 20:18:53.416 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:18:53.417 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:18:53.428 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:18:53.428 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:18:53.428 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:18:53.428 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:18:53.453 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 20:18:53.624 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1205559205.
+2023-07-14 20:18:53.624 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@47db5fa5]
+2023-07-14 20:18:53.626 [main] DEBUG fdfsf.insertCar - ==>  Preparing: insert into t_car(id, car_num, brand, guide_price, produce_time, car_type) values (null, ?, ?, ?, ?, ?);
+2023-07-14 20:18:53.642 [main] DEBUG fdfsf.insertCar - ==> Parameters: 1002(String), 比亚迪(String), 20.1(Double), 2001-1-1(String), 电动(String)
+2023-07-14 20:18:53.646 [main] DEBUG fdfsf.insertCar - <==    Updates: 1
+2023-07-14 20:18:53.647 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@47db5fa5]
+2023-07-14 20:18:53.648 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@47db5fa5]
+2023-07-14 20:18:53.649 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@47db5fa5]
+2023-07-14 20:18:53.649 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1205559205 to pool.
+2023-07-14 20:19:07.205 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:19:07.205 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:19:07.216 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:19:07.216 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:19:07.216 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:19:07.216 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:19:07.241 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 20:19:07.416 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1205559205.
+2023-07-14 20:19:07.416 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@47db5fa5]
+2023-07-14 20:19:07.420 [main] DEBUG fdfsf.insertCar - ==>  Preparing: insert into t_car(id, car_num, brand, guide_price, produce_time, car_type) values (null, ?, ?, ?, ?, ?);
+2023-07-14 20:19:07.437 [main] DEBUG fdfsf.insertCar - ==> Parameters: 1111(String), 拉法(String), 1999.0(String), 2019-1-1(String), 燃油车(String)
+2023-07-14 20:19:07.439 [main] DEBUG fdfsf.insertCar - <==    Updates: 1
+2023-07-14 20:19:07.439 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@47db5fa5]
+2023-07-14 20:19:07.440 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@47db5fa5]
+2023-07-14 20:19:07.440 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@47db5fa5]
+2023-07-14 20:19:07.440 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1205559205 to pool.
+2023-07-14 20:19:21.189 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:19:21.190 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:19:21.201 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:19:21.201 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:19:21.201 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:19:21.201 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:19:21.226 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 20:19:21.398 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1205559205.
+2023-07-14 20:19:21.399 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@47db5fa5]
+2023-07-14 20:19:21.401 [main] DEBUG fdfsf.deleteCarBycar_num - ==>  Preparing: delete from t_car where car_num = ?;
+2023-07-14 20:19:21.416 [main] DEBUG fdfsf.deleteCarBycar_num - ==> Parameters: 1003(Integer)
+2023-07-14 20:19:21.418 [main] DEBUG fdfsf.deleteCarBycar_num - <==    Updates: 0
+2023-07-14 20:19:21.419 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@47db5fa5]
+2023-07-14 20:19:21.419 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@47db5fa5]
+2023-07-14 20:19:21.419 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@47db5fa5]
+2023-07-14 20:19:21.420 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1205559205 to pool.
+2023-07-14 20:19:47.113 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:19:47.114 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:19:47.125 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:19:47.125 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:19:47.125 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:19:47.125 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:19:47.149 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 20:19:47.314 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1205559205.
+2023-07-14 20:19:47.314 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@47db5fa5]
+2023-07-14 20:19:47.316 [main] DEBUG fdfsf.deleteCarBycar_num - ==>  Preparing: delete from t_car where car_num = ?;
+2023-07-14 20:19:47.330 [main] DEBUG fdfsf.deleteCarBycar_num - ==> Parameters: 1101(Integer)
+2023-07-14 20:19:47.333 [main] DEBUG fdfsf.deleteCarBycar_num - <==    Updates: 1
+2023-07-14 20:19:47.333 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@47db5fa5]
+2023-07-14 20:19:47.334 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@47db5fa5]
+2023-07-14 20:19:47.335 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@47db5fa5]
+2023-07-14 20:19:47.335 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1205559205 to pool.
+2023-07-14 20:20:33.314 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:20:33.315 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:20:33.328 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:20:33.328 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:20:33.328 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:20:33.328 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:20:33.356 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 20:20:33.528 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1205559205.
+2023-07-14 20:20:33.528 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@47db5fa5]
+2023-07-14 20:20:33.531 [main] DEBUG fdfsf.updateCarBycar_num - ==>  Preparing: update t_car set brand=? ,guide_price= ? ,produce_time= ? , car_type=? where car_num = ?;
+2023-07-14 20:20:33.547 [main] DEBUG fdfsf.updateCarBycar_num - ==> Parameters: 凯美瑞(String), 3.3(Double), 1999-11-10(String), 撚油车(String), 1001(String)
+2023-07-14 20:20:33.550 [main] DEBUG fdfsf.updateCarBycar_num - <==    Updates: 1
+2023-07-14 20:20:33.550 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@47db5fa5]
+2023-07-14 20:20:33.551 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@47db5fa5]
+2023-07-14 20:20:33.552 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@47db5fa5]
+2023-07-14 20:20:33.552 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1205559205 to pool.
+2023-07-14 20:20:49.497 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:20:49.499 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:20:49.510 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:20:49.510 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:20:49.510 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:20:49.510 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:20:49.536 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 20:20:49.717 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 259251414.
+2023-07-14 20:20:49.718 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:20:49.720 [main] DEBUG fdfsf.selectCarBycar_num - ==>  Preparing: select id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType from t_car where car_num = ?;
+2023-07-14 20:20:49.736 [main] DEBUG fdfsf.selectCarBycar_num - ==> Parameters: 1002(String)
+2023-07-14 20:20:49.751 [main] DEBUG fdfsf.selectCarBycar_num - <==      Total: 1
+2023-07-14 20:20:49.756 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:20:49.757 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:20:49.757 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 259251414 to pool.
+2023-07-14 20:20:57.543 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:20:57.544 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-14 20:20:57.554 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:20:57.555 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:20:57.555 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:20:57.555 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-14 20:20:57.579 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-14 20:20:57.740 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 259251414.
+2023-07-14 20:20:57.740 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:20:57.742 [main] DEBUG fdfsf.selectAllCar - ==>  Preparing: select id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType from t_car;
+2023-07-14 20:20:57.756 [main] DEBUG fdfsf.selectAllCar - ==> Parameters: 
+2023-07-14 20:20:57.773 [main] DEBUG fdfsf.selectAllCar - <==      Total: 4
+2023-07-14 20:20:57.777 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:20:57.778 [main] DEBUG o.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f73dcd6]
+2023-07-14 20:20:57.778 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 259251414 to pool.
