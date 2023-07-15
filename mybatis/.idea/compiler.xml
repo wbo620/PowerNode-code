@@ -2,17 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis-01-introduction" />
+        <module name="mybatis-04-web" />
         <module name="mybatis-02-crud" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="17">
       <module name="mybatis-01-introduction" target="17" />
       <module name="mybatis-02-crud" target="17" />
+      <module name="mybatis-04-web" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

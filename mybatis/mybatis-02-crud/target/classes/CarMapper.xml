@@ -14,13 +14,13 @@
         where car_num = #{carNum};
     </delete>
 
-    <select id="selectCarBycar_num" resultType="com.powernode.mybatis.pojo.Car">
+    <select id="selectCarBycar_num" resultType="com.powernode.bank.mybatis.pojo.Car">
         select id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType
         from t_car
         where car_num = #{carNum};
     </select>
 
-    <select id="selectAllCar" resultType="com.powernode.mybatis.pojo.Car">
+    <select id="selectAllCar" resultType="com.powernode.bank.mybatis.pojo.Car">
         select id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType
         from t_car;
     </select>
