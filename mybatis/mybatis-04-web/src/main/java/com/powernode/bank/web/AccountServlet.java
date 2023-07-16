@@ -1,8 +1,5 @@
 package com.powernode.bank.web;
 
-
-
-
 import com.powernode.bank.exceptions.MonenNotEnougException;
 import com.powernode.bank.exceptions.TransferException;
 import com.powernode.bank.service.AccountService;
@@ -14,9 +11,8 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
-
-
 /**
+ *
  * @author hallen
  */
 @WebServlet("/transfer")
@@ -39,6 +35,9 @@ public class AccountServlet extends HttpServlet {
             response.sendRedirect(request.getContextPath() + "/error1.html");
         } catch (TransferException e) {
             response.sendRedirect(request.getContextPath() + "/error2.html");
+        }catch (Exception e) {
+            response.sendRedirect(request.getContextPath() + "/error2.html");
+
         }
 
     }
