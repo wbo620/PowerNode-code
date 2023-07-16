@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/mybatis-04-web" />
+    <file type="web" url="file://$PROJECT_DIR$/mybatis-05-crud2" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -9,6 +10,7 @@
         <option value="$PROJECT_DIR$/mybatis-01-introduction/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-02-crud/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-04-web/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-05-crud2/pom.xml" />
       </list>
     </option>
   </component>

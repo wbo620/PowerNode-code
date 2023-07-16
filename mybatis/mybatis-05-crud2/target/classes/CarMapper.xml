@@ -2,36 +2,36 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="fdfsf">
+<mapper namespace="com.powernode.mybatis.mapper.CarMapper">
     <!--    id是这条sql语句的唯一标识符-->
-    <insert id="insertCar">
+    <insert id="insert">
         insert into t_car(id, car_num, brand, guide_price, produce_time, car_type)
         values (null, #{carNum}, #{brand}, #{guidePrice}, #{produceTime}, #{carType});
     </insert>
-    <delete id="deleteCarBycar_num">
+    <delete id="deleteById">
         delete
         from t_car
-        where car_num = #{carNum};
+        where id = #{id};
     </delete>
 
-    <select id="selectCarBycar_num" resultType="com.powernode.mybatis.pojo.Car">
+    <select id="selectById" resultType="com.powernode.mybatis.pojo.Car">
         select id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType
         from t_car
-        where car_num = #{carNum};
+        where id = #{id};
     </select>
 
-    <select id="selectAllCar" resultType="com.powernode.mybatis.pojo.Car">
+    <select id="selectAll" resultType="com.powernode.mybatis.pojo.Car">
         select id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType
         from t_car;
     </select>
 
-    <update id="updateCarBycar_num"  >
+    <update id="updateById" >
         update t_car
         set brand=#{brand}
           ,guide_price= #{guidePrice}
           ,produce_time= #{produceTime}
           , car_type=#{carType}
-        where car_num = #{carNum};
+        where id = #{id};
     </update>
 
 
