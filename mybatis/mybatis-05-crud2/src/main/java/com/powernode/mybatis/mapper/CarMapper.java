@@ -12,4 +12,6 @@ public interface CarMapper {
 
     Car selectById(Long id);
     List<Car> selectAll();
+
+    int insertCarUseGeneratedKey(Car car);
 }

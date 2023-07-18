@@ -1,6 +1,6 @@
 package com.powernode.mybatis.test;
 
-import com.powernode.bank.mybais.test.utils.SqlSessionUtil;
+import com.powernode.mybais.test.utils.SqlSessionUtil;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;

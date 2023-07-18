@@ -10,34 +10,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fbbb791-0bfc-46dc-87f7-9e4de46b1a92" name="Changes" comment="动态代理生成接口中的类">
-      <change afterPath="$PROJECT_DIR$/mybatis-05-crud2/src/main/java/com/powernode/mybatis/mapper/CarMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-05-crud2/src/main/java/com/powernode/mybatis/pojo/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-05-crud2/src/main/java/com/powernode/mybatis/utils/SqlSessionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-05-crud2/src/main/resources/CarMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-05-crud2/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-05-crud2/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-05-crud2/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-05-crud2/src/test/java/com/powernode/mybatis/CarMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-01-introduction/src/test/java/com/powernode/bank/mybatis/test/CatMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01-introduction/src/test/java/com/powernode/mybatis/test/CatMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02-crud/src/main/java/com/powernode/bank/mybatis/pojo/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02-crud/src/main/java/com/powernode/mybatis/pojo/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02-crud/src/main/java/com/powernode/bank/mybatis/utils/SqlSessionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02-crud/src/main/java/com/powernode/mybatis/utils/SqlSessionUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02-crud/src/main/resources/CarMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02-crud/src/main/resources/CarMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02-crud/src/test/java/com/powernode/bank/mybatis/CarMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02-crud/src/test/java/com/powernode/mybatis/CarMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02-crud/target/classes/CarMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02-crud/target/classes/CarMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02-crud/target/classes/com/powernode/bank/mybatis/pojo/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02-crud/target/classes/com/powernode/bank/mybatis/utils/SqlSessionUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02-crud/target/test-classes/com/powernode/bank/mybatis/CarMapperTest.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-07-param/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-07-param/src/main/java/com/powernode/mybatis/mapper/CarMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-07-param/src/main/java/com/powernode/mybatis/pojo/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-07-param/src/main/java/com/powernode/mybatis/utils/SqlSessionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-07-param/src/main/resources/CarMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-07-param/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-07-param/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-07-param/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-07-param/src/test/java/com/powernode/mybatis/CarMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01-introduction/src/main/java/com/powernode/bank/mybais/test/MybatisIntroduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01-introduction/src/main/java/com/powernode/mybais/test/MybatisIntroduction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01-introduction/src/main/java/com/powernode/bank/mybais/test/MybatisIntroductionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01-introduction/src/main/java/com/powernode/mybais/test/MybatisIntroductionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01-introduction/src/main/java/com/powernode/bank/mybais/test/utils/SqlSessionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01-introduction/src/main/java/com/powernode/mybais/test/utils/SqlSessionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01-introduction/src/main/resources/CarMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01-introduction/src/main/resources/CarMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01-introduction/src/test/java/com/powernode/mybatis/test/CatMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01-introduction/src/test/java/com/powernode/mybatis/test/CatMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01-introduction/target/classes/CarMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01-introduction/target/classes/CarMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01-introduction/target/classes/com/powernode/bank/mybais/test/MybatisIntroduction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01-introduction/target/classes/com/powernode/bank/mybais/test/MybatisIntroductionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01-introduction/target/classes/com/powernode/bank/mybais/test/utils/SqlSessionUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01-introduction/target/test-classes/com/powernode/bank/mybatis/test/CatMapperTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-05-crud2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-crud2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05-crud2/src/main/java/com/powernode/mybatis/mapper/CarMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-crud2/src/main/java/com/powernode/mybatis/mapper/CarMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05-crud2/src/main/resources/CarMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-crud2/src/main/resources/CarMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05-crud2/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-crud2/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05-crud2/target/classes/CarMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-crud2/target/classes/CarMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05-crud2/target/classes/com/powernode/mybatis/mapper/CarMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-crud2/target/classes/com/powernode/mybatis/mapper/CarMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05-crud2/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-crud2/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05-crud2/target/test-classes/com/powernode/mybatis/CarMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-crud2/target/test-classes/com/powernode/mybatis/CarMapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Mybatis核心配置文件" />
+        <option value="Mybatis的SQL映射文件" />
         <option value="Class" />
       </list>
     </option>
@@ -55,6 +71,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="corretto-17" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2SWB6AkzMVGMSPc8smRyot67zLZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -63,19 +86,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/Users/hallen/Decuments/Code/powernode_code/mybatis/mybatis-05-crud2/src/main/resources",
+    "last_opened_file_path": "/Users/hallen/Decuments/Code/powernode_code/mybatis/mybatis-07-param/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.16213769",
     "project.structure.side.proportion": "0.29578844",
-    "settings.editor.selected.configurable": "http.proxy",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -86,10 +111,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mybatis-05-crud2/src/main/resources" />
-      <recent name="$PROJECT_DIR$/mybatis-04-web/src/main/resources" />
-      <recent name="$PROJECT_DIR$/mybatis-02-crud/src/main/java/com/powernode/mybatis/utils" />
-      <recent name="$PROJECT_DIR$/mybatis-02-crud/src/main" />
+      <recent name="$PROJECT_DIR$/mybatis-07-param/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/mybatis-07-param/src/main" />
+      <recent name="$PROJECT_DIR$/mybatis-07-param/src/test" />
+      <recent name="$PROJECT_DIR$/mybatis-07-param/src/test/java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mybatis-04-web/src/main/webapp" />
@@ -99,9 +125,9 @@
       <recent name="com.powernode.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CarMapperTest.testUpdateById">
-    <configuration name="CarMapperTest.testDelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-05-crud2" />
+  <component name="RunManager" selected="JUnit.CarMapperTest.testSelectAllResultMap">
+    <configuration name="CarMapperTest.testSelectAllResultMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-07-param" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.powernode.mybatis.*" />
@@ -110,14 +136,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.powernode.mybatis" />
       <option name="MAIN_CLASS_NAME" value="com.powernode.mybatis.CarMapperTest" />
-      <option name="METHOD_NAME" value="testDelectAll" />
+      <option name="METHOD_NAME" value="testSelectAllResultMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarMapperTest.testDeleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-05-crud2" />
+    <configuration name="CarMapperTest.testSelectAlltoList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-07-param" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.powernode.mybatis.*" />
@@ -126,14 +152,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.powernode.mybatis" />
       <option name="MAIN_CLASS_NAME" value="com.powernode.mybatis.CarMapperTest" />
-      <option name="METHOD_NAME" value="testDeleteById" />
+      <option name="METHOD_NAME" value="testSelectAlltoList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarMapperTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-05-crud2" />
+    <configuration name="CarMapperTest.testSelectAlltoListMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-07-param" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.powernode.mybatis.*" />
@@ -142,14 +168,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.powernode.mybatis" />
       <option name="MAIN_CLASS_NAME" value="com.powernode.mybatis.CarMapperTest" />
-      <option name="METHOD_NAME" value="testInsert" />
+      <option name="METHOD_NAME" value="testSelectAlltoListMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarMapperTest.testSelectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-05-crud2" />
+    <configuration name="CarMapperTest.testSelectAlltoMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-07-param" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.powernode.mybatis.*" />
@@ -158,14 +184,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.powernode.mybatis" />
       <option name="MAIN_CLASS_NAME" value="com.powernode.mybatis.CarMapperTest" />
-      <option name="METHOD_NAME" value="testSelectById" />
+      <option name="METHOD_NAME" value="testSelectAlltoMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarMapperTest.testUpdateById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-05-crud2" />
+    <configuration name="CarMapperTest.testSelectAlltoMapMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-07-param" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.powernode.mybatis.*" />
@@ -174,7 +200,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.powernode.mybatis" />
       <option name="MAIN_CLASS_NAME" value="com.powernode.mybatis.CarMapperTest" />
-      <option name="METHOD_NAME" value="testUpdateById" />
+      <option name="METHOD_NAME" value="testSelectAlltoMapMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CarMapperTest.testUpdateById" />
-        <item itemvalue="JUnit.CarMapperTest.testDeleteById" />
-        <item itemvalue="JUnit.CarMapperTest.testSelectById" />
-        <item itemvalue="JUnit.CarMapperTest.testDelectAll" />
-        <item itemvalue="JUnit.CarMapperTest.testInsert" />
+        <item itemvalue="JUnit.CarMapperTest.testSelectAllResultMap" />
+        <item itemvalue="JUnit.CarMapperTest.testSelectAlltoMap" />
+        <item itemvalue="JUnit.CarMapperTest.testSelectAlltoMapMap" />
+        <item itemvalue="JUnit.CarMapperTest.testSelectAlltoListMap" />
+        <item itemvalue="JUnit.CarMapperTest.testSelectAlltoList" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +227,16 @@
       <workItem from="1689252279223" duration="19643000" />
       <workItem from="1689391919379" duration="11242000" />
       <workItem from="1689426456503" duration="6547000" />
-      <workItem from="1689495767645" duration="12157000" />
+      <workItem from="1689495767645" duration="12756000" />
+      <workItem from="1689518207007" duration="21000" />
+      <workItem from="1689518248741" duration="240000" />
+      <workItem from="1689518499689" duration="478000" />
+      <workItem from="1689518991188" duration="61000" />
+      <workItem from="1689519096717" duration="496000" />
+      <workItem from="1689596413778" duration="753000" />
+      <workItem from="1689597183525" duration="5409000" />
+      <workItem from="1689668302070" duration="881000" />
+      <workItem from="1689669198337" duration="6309000" />
     </task>
     <task id="LOCAL-00001" summary="动态代理生成接口中的类">
       <created>1689511017555</created>
@@ -219,5 +254,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="动态代理生成接口中的类" />
     <option name="LAST_COMMIT_MESSAGE" value="动态代理生成接口中的类" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

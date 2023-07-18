@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="dadsa">
+<mapper namespace="com.powernode.mybatis.apper">
 <!--    id是这条sql语句的唯一标识符-->
     <insert id="insertCar">
         insert into t_car(id, car_num, brand, guide_price, produce_time, car_type)

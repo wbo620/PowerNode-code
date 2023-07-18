@@ -4,27 +4,40 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.powernode.mybatis.mapper.CarMapper">
     <!--    id是这条sql语句的唯一标识符-->
+<!--    插入车辆信息-->
     <insert id="insert">
         insert into t_car(id, car_num, brand, guide_price, produce_time, car_type)
         values (null, #{carNum}, #{brand}, #{guidePrice}, #{produceTime}, #{carType});
     </insert>
+
+<!--
+        useGeneratedKeys="true"  使用自动生成的主键值
+        keyProperty="id"        指定主键值,赋给对象的哪个属性
+-->
+    <insert id="insertCarUseGeneratedKey" useGeneratedKeys="true" keyProperty="id">
+        insert into t_car(id, car_num, brand, guide_price, produce_time, car_type)
+        values (null, #{carNum}, #{brand}, #{guidePrice}, #{produceTime}, #{carType});
+    </insert>
+
+<!--    根据Id删除数据-->
     <delete id="deleteById">
         delete
         from t_car
         where id = #{id};
     </delete>
 
-    <select id="selectById" resultType="com.powernode.mybatis.pojo.Car">
+<!--    根据Id查询数据-->
+    <select id="selectById" resultType="Car">
         select id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType
         from t_car
         where id = #{id};
     </select>
-
-    <select id="selectAll" resultType="com.powernode.mybatis.pojo.Car">
+<!--    查询所有数据-->
+    <select id="selectAll" resultType="Car">
         select id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType
         from t_car;
     </select>
-
+<!--    根据Id更新数据-->
     <update id="updateById" >
         update t_car
         set brand=#{brand}
