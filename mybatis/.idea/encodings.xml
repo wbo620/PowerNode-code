@@ -13,5 +13,7 @@
     <file url="file://$PROJECT_DIR$/mybatis-05-crud2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-07-param/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-07-param/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-10-advanced-mapping/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-10-advanced-mapping/src/main/resources" charset="UTF-8" />
   </component>
 </project>

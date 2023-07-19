@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/mybatis-04-web.iml" filepath="$PROJECT_DIR$/mybatis-04-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-05-crud2.iml" filepath="$PROJECT_DIR$/mybatis-05-crud2.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-07-param.iml" filepath="$PROJECT_DIR$/mybatis-07-param.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-10-advanced-mapping.iml" filepath="$PROJECT_DIR$/mybatis-10-advanced-mapping.iml" />
     </modules>
   </component>
 </project>

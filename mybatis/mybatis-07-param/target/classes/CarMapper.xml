@@ -5,10 +5,10 @@
 <mapper namespace="com.powernode.mybatis.mapper.CarMapper">
 
     <!--
-1.专门定义一个结果映射，在这个结果映射当中指定数据库表的字段名和JaVa类的属性名的对应关系。
-2.type属性：用来指定P0J0类的类名。
-3.id属性：指定resultMap的唯一标识。这个id将来要在select标签中使用。
--->
+        1.专门定义一个结果映射，在这个结果映射当中指定数据库表的字段名和JaVa类的属性名的对应关系。
+        2.type属性：用来指定P0J0类的类名。
+        3.id属性：指定resultMap的唯一标识。这个id将来要在select标签中使用。
+    -->
     <resultMap id="carResultMap" type="Car">
         <!--如果数据库表中有主键，一般都是有主键，要不然不符合数据库设计第一范式。-->
         <!--如果有主键，建议这里配置一个id标签，注意：这不是必须的。但是官方的解释是什么呢？这样的配置可以让nybat1s提高效率。-->
@@ -34,7 +34,6 @@
     </insert>
 
 <!--
-
         useGeneratedKeys="true"  使用自动生成的主键值
         keyProperty="id"        指定主键值,赋给对象的哪个属性
 -->

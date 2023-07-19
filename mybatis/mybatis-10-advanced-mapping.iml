@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
+    <output url="file://$MODULE_DIR$/mybatis-10-advanced-mapping/target/classes" />
+    <output-test url="file://$MODULE_DIR$/mybatis-10-advanced-mapping/target/test-classes" />
+    <content url="file://$MODULE_DIR$/mybatis-10-advanced-mapping">
+      <sourceFolder url="file://$MODULE_DIR$/mybatis-10-advanced-mapping/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mybatis-10-advanced-mapping/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/mybatis-10-advanced-mapping/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/mybatis-10-advanced-mapping/target" />
+    </content>
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.26" level="project" />
+    <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.5.13" level="project" />
+    <orderEntry type="library" name="Maven: com.mysql:mysql-connector-j:8.0.33" level="project" />
+    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.21.9" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.13.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.4.8" level="project" />
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.4.8" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:2.0.7" level="project" />
+  </component>
+</module>
