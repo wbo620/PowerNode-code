@@ -15,5 +15,13 @@
     <file url="file://$PROJECT_DIR$/mybatis-07-param/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-10-advanced-mapping/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-10-advanced-mapping/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-12-generator1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-12-generator1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-12-generator2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-12-generator2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-13-page/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-13-page/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-14-annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-14-annotation/src/main/resources" charset="UTF-8" />
   </component>
 </project>

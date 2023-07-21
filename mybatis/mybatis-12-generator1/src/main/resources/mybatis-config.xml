@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="jdbc.properties"/>
+    <settings>
+        <!--        开启日志文件-->
+        <setting name="logImpl" value="SLF4J"/>
+        <!--        使用驼峰命名映射数据库中的字段名-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!--        默认开启全局的懒加载-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+    </settings>
+    <!--给sql语句的返回值类型(resultType)起别名-->
+    <typeAliases>
+
+        <!--
+       type:指定给哪个类型起别名
+       alias:指定别名
+       注意：别名不缺分大小写。
+       alias属性是可以省略的。有默认的别名。
+       -->
+        <!--<typeAlias type="com.powernode.mybatis.pojo.Car"alias="aaa"/>
+        <typeAlias type="com.powernode.mybatis.pojo.Log"alias="bbb"/>-->
+        <!--省略alias.之后，别名就是类的简名，比如：com.powernode.mybatis.pojo.Car的别名就是Car/car/cAR/cAr,不缺分大小写。-->
+        <!--        <typeAlias type="com.powernode.mybatis.pojo.Car"/>-->
+        <!--将这个包下的所有的类全部自动起别名。别名就是类简名。不区分大小写。-->
+        <package name="com.powernode.mybatis.pojo"/>
+    </typeAliases>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--        指定XXXMapper.xml的根路径-->
+        <!--        默认在根路径下扫描配置文件-->
+
+        <package name="com.powernode.mybatis.mapper"/>
+    </mappers>
+</configuration>

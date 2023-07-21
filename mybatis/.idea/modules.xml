@@ -9,6 +9,10 @@
       <module fileurl="file://$PROJECT_DIR$/mybatis-05-crud2.iml" filepath="$PROJECT_DIR$/mybatis-05-crud2.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-07-param.iml" filepath="$PROJECT_DIR$/mybatis-07-param.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-10-advanced-mapping.iml" filepath="$PROJECT_DIR$/mybatis-10-advanced-mapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-12-generator1.iml" filepath="$PROJECT_DIR$/mybatis-12-generator1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-12-generator2.iml" filepath="$PROJECT_DIR$/mybatis-12-generator2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-13-page.iml" filepath="$PROJECT_DIR$/mybatis-13-page.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-14-annotation.iml" filepath="$PROJECT_DIR$/mybatis-14-annotation.iml" />
     </modules>
   </component>
 </project>

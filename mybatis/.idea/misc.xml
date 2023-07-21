@@ -14,6 +14,10 @@
         <option value="$PROJECT_DIR$/myatis-07-param/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-07-param/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-10-advanced-mapping/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-12-generator1/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-12-generator2/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-13-page/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-14-annotation/pom.xml" />
       </list>
     </option>
   </component>
