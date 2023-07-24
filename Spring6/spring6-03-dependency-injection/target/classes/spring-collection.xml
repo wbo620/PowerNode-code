@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="personBean" class="com.powernode.spring6.bean.Person">
+    <property name="names">
+<!--        list无序可重复-->
+        <list>
+            <value>张三</value>
+            <value>麻子</value>
+            <value>李四</value>
+            <value>王五</value>
+        </list>
+    </property>
+
+    <property name="addres">
+<!--        set无序,不重复-->
+        <set>
+            <value>海淀</value>
+            <value>大兴安岭</value>
+            <value>海淀</value>
+            <value>北京</value>
+            <value>上海</value>
+        </set>
+    </property>
+
+<!--    注入Map-->
+    <property name="map">
+        <map>
+            <entry key="1" value="110"/>
+            <entry key="2" value="120"/>
+            <entry key="3" value="119"/>
+        </map>
+    </property>
+</bean>
+</beans>

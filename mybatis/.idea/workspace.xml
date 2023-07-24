@@ -9,112 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fbbb791-0bfc-46dc-87f7-9e4de46b1a92" name="Changes" comment="动态代理生成接口中的类">
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/LOG_HOME_IS_UNDEFINED/TestWeb.log.2023-07-21.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/src/main/java/com/powernode/mybatis/mapper/CarMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/src/main/java/com/powernode/mybatis/pojo/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/src/main/java/com/powernode/mybatis/pojo/CarExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/src/main/java/com/powernode/mybatis/utils/SqlSessionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/src/main/resources/com/powernode/mybatis/mapper/CarMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/src/test/java/com/powernode/mybatis/test/CarMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/target/classes/com/powernode/mybatis/mapper/CarMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/target/classes/com/powernode/mybatis/mapper/CarMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/target/classes/com/powernode/mybatis/pojo/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/target/classes/com/powernode/mybatis/pojo/CarExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/target/classes/com/powernode/mybatis/pojo/CarExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/target/classes/com/powernode/mybatis/pojo/CarExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/target/classes/com/powernode/mybatis/pojo/CarExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/target/classes/com/powernode/mybatis/utils/SqlSessionUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/target/classes/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/target/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/target/classes/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator1/target/test-classes/com/powernode/mybatis/test/CarMapperTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/LOG_HOME_IS_UNDEFINED/TestWeb.log.2023-07-21.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/src/main/java/com/powernode/mybatis/mapper/CarMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/src/main/java/com/powernode/mybatis/pojo/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/src/main/java/com/powernode/mybatis/pojo/CarExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/src/main/java/com/powernode/mybatis/utils/SqlSessionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/src/main/resources/com/powernode/mybatis/mapper/CarMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/src/test/java/com/powernode/mybatis/CarMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/target/classes/com/powernode/mybatis/mapper/CarMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/target/classes/com/powernode/mybatis/mapper/CarMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/target/classes/com/powernode/mybatis/pojo/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/target/classes/com/powernode/mybatis/pojo/CarExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/target/classes/com/powernode/mybatis/pojo/CarExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/target/classes/com/powernode/mybatis/pojo/CarExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/target/classes/com/powernode/mybatis/pojo/CarExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/target/classes/com/powernode/mybatis/utils/SqlSessionUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/target/classes/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/target/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/target/classes/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-12-generator2/target/test-classes/com/powernode/mybatis/CarMapperTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/LOG_HOME_IS_UNDEFINED/TestWeb.log.2023-07-21.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/src/main/java/com/powernode/mybatis/mapper/CarMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/src/main/java/com/powernode/mybatis/pojo/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/src/main/java/com/powernode/mybatis/pojo/CarExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/src/main/java/com/powernode/mybatis/utils/SqlSessionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/src/main/resources/com/powernode/mybatis/mapper/CarMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/src/test/java/com/powernode/mybatis/PageTest/testPageHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/target/classes/com/powernode/mybatis/mapper/CarMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/target/classes/com/powernode/mybatis/mapper/CarMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/target/classes/com/powernode/mybatis/pojo/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/target/classes/com/powernode/mybatis/pojo/CarExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/target/classes/com/powernode/mybatis/pojo/CarExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/target/classes/com/powernode/mybatis/pojo/CarExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/target/classes/com/powernode/mybatis/pojo/CarExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/target/classes/com/powernode/mybatis/utils/SqlSessionUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/target/classes/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/target/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/target/classes/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-13-page/target/test-classes/com/powernode/mybatis/PageTest/testPageHelper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/LOG_HOME_IS_UNDEFINED/TestWeb.log.2023-07-21.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/src/main/java/com/powernode/mybatis/mapper/CarMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/src/main/java/com/powernode/mybatis/pojo/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/src/main/java/com/powernode/mybatis/pojo/CarExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/src/main/java/com/powernode/mybatis/utils/SqlSessionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/src/main/resources/com/powernode/mybatis/mapper/CarMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/src/test/java/com/powernode/mybatis/test/CarMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/target/classes/com/powernode/mybatis/mapper/CarMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/target/classes/com/powernode/mybatis/mapper/CarMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/target/classes/com/powernode/mybatis/pojo/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/target/classes/com/powernode/mybatis/pojo/CarExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/target/classes/com/powernode/mybatis/pojo/CarExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/target/classes/com/powernode/mybatis/pojo/CarExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/target/classes/com/powernode/mybatis/pojo/CarExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/target/classes/com/powernode/mybatis/utils/SqlSessionUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/target/classes/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/target/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/target/classes/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-14-annotation/target/test-classes/com/powernode/mybatis/test/CarMapperTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="4fbbb791-0bfc-46dc-87f7-9e4de46b1a92" name="Changes" comment="动态代理生成接口中的类" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,32 +57,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/Users/hallen/Decuments/Code/powernode_code/mybatis/mybatis-14-annotation/src/main/java/com/powernode/mybatis",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.16213769",
-    "project.structure.side.proportion": "0.29578844",
-    "settings.editor.selected.configurable": "fileTemplates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hallen/Decuments/Code/powernode_code/mybatis/mybatis-14-annotation/src/main/java/com/powernode/mybatis&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.16213769&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.29578844&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mybatis-14-annotation/src/main/java/com/powernode/mybatis" />
@@ -205,7 +100,7 @@
       <recent name="com.powernode.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CarMapperTest.testUpdate">
+  <component name="RunManager" selected="JUnit.testPageHelper.testPageHelper">
     <configuration name="CarMapperTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-14-annotation" />
       <extension name="coverage">
@@ -288,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testPageHelper.testPageHelper" />
         <item itemvalue="JUnit.CarMapperTest.testUpdate" />
         <item itemvalue="JUnit.CarMapperTest.testInsert" />
         <item itemvalue="JUnit.CarMapperTest.testDelete" />
         <item itemvalue="JUnit.CarMapperTest.testSelectById" />
-        <item itemvalue="JUnit.testPageHelper.testPageHelper" />
       </list>
     </recent_temporary>
   </component>
@@ -319,6 +214,7 @@
       <workItem from="1689669198337" duration="6309000" />
       <workItem from="1689771209422" duration="11391000" />
       <workItem from="1689943515345" duration="7738000" />
+      <workItem from="1690009044577" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="动态代理生成接口中的类">
       <created>1689511017555</created>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="svt" class="com.powernode.spring6.bean.SimpleValueType">
+        <property name="age" value="14"/>
+        <property name="age2" value="13"/>
+        <property name="username" value="zhansgan"/>
+        <property name="season" value="B"/>
+        <property name="flag" value="true"/>
+        <property name="flag2" value="false"/>
+        <property name="c" value="a"/>
+        <property name="c2" value="b"/>
+        <property name="clazz" value="java.util.Date"/>
+    </bean>
+</beans>

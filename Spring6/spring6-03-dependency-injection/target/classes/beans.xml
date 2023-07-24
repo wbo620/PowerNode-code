@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="userDaoBean" class="com.powernode.spring6.dao.UserDao"/>
+
+    <bean id="vipDaoBean" class="com.powernode.spring6.dao.VipDao"/>
+
+    <bean id="customerService" class="com.powernode.spring6.service.CustomerService">
+        <!--构造注入  第一种方式  指定参数下标进行匹配-->
+        <!--
+        indX属性指定参数下标，第一个参数是0，第二个参数是1，第三个参数是2，以此类推。
+        ref属性用来指定注入的bean的id
+        -->
+        <!--指定构造方法的第一个参数，下标是0-->
+        <constructor-arg index="0" ref="userDaoBean"/>
+        <!--指定构造方法的第二个参数，下标是1-->
+        <constructor-arg index="1" ref="vipDaoBean"/>
+    </bean>
+
+    <bean id="customerService2" class="com.powernode.spring6.service.CustomerService">
+        <!--构造注入  第二种方式,指定名称进行匹配-->
+        <constructor-arg name="userDao" ref="userDaoBean"/>
+        <constructor-arg name="vipDao" ref="vipDaoBean"/>
+    </bean>
+
+    <bean id="customerService3" class="com.powernode.spring6.service.CustomerService">
+        <!--
+        构造注入  第三种方式
+        不指定下标和名称,让idea自行匹配
+        -->
+        <constructor-arg  ref="userDaoBean"/>
+        <constructor-arg  ref="vipDaoBean"/>
+    </bean>
+</beans>
