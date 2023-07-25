@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--Spring.提供的实例化方式，第一种：在spring配置文件中直接配置类全路径，Spring会自动调用该类的无参数构造方法来实例化Bean-->
+    <bean id="springbean" class="com.powernode.spring6.bean.SpringBean"/>
+    <!--Spring.提供的实例化方式，第二种：通过简单工/厂模式。你需要在Spring配置文件中告诉Spring框架，调用哪个类的哪个方法获取Bean-->
+    <!--factory-method属性指定的是工厂类当中的静态方法。也就是告诉Spring框架，调用这个方法可以获取Bean。-->
+    <bean id="star" class="com.powernode.spring6.bean.StarFactory" factory-method="get"/>
+
+    <!--Spring.提供的实例化方式，第三种：通过工厂方法模式。通过factory-bean属性+factory-method属性来共同完成。-->
+    <!--告诉Spring框架，调用哪个对象的哪个方法来获取Bean。-->
+    <bean id="gunFactory" class="com.powernode.spring6.bean.GunFactory"/>
+    <!--以下的配置很关键，factory-bean属性告诉Spring调用哪个对象。factory-method告诉Spring调用该对象的哪个方法。-->
+    <bean id="gun" factory-bean="gunFactory" factory-method="get"/>
+
+    <!--Spring:提供的实例化方式，第四种：通过FactoryBean接口来实现。-->
+    <!--这种方式实际上就是第三种方式的简化。-->
+    <!--由于你编写的类实现了FactoryBean.接口，所以这个类是一个特殊的类，不需要你再手动指定：factory-bean、factory-method-->
+    <!--通过一个特殊的Bean:工Bean。来返回一个普通的Bean Person.对象。-->
+    <bean id="person" class="com.powernode.spring6.bean.PersonFactoryBean"/>
+
+
+    <!--通过工Bean:DateFactoryBean来返回普通Bean:java.UtiL.Date
+    -->
+    <bean id="date" class="com.powernode.spring6.bean.DateFactoryBean">
+        <constructor-arg index="0" value="1980-10-11"/>
+    </bean>
+    <bean id="student2" class="com.powernode.spring6.bean.Student">
+        <property name="birth" ref="date"/>
+    </bean>
+
+    <!--这种方式只能获取系统当前时间，这种时间不能作为生日。-->
+    <bean id="nowTime" class="java.util.Date"/>
+    <bean id="student1" class="com.powernode.spring6.bean.Student">
+        <!--把日期类型当做简单类型。-->
+        <!--<property name="birth"value="Mon Oct 10 14:30:26 CST 2022"/>-->
+        <!--把日期类型当做非简单类型。-->
+        <property name="birth" ref="nowTime"/>
+    </bean>
+</beans>
