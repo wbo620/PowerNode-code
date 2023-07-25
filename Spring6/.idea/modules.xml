@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/Spring6.iml" filepath="$PROJECT_DIR$/Spring6.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-02-first/spring6-02-first.iml" filepath="$PROJECT_DIR$/spring6-02-first/spring6-02-first.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-03-dependency-injection.iml" filepath="$PROJECT_DIR$/spring6-03-dependency-injection.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring6-04-scope.iml" filepath="$PROJECT_DIR$/spring6-04-scope.iml" />
     </modules>
   </component>
 </project>

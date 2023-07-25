@@ -8,20 +8,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring6-02-first" />
         <module name="spring6-03-dependency-injection" />
-        <module name="spring6-04-scope" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring6-02-first" target="17" />
       <module name="spring6-03-dependency-injection" target="17" />
-      <module name="spring6-04-scope" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring6-02-first" options="-parameters" />
       <module name="spring6-03-dependency-injection" options="-parameters" />
-      <module name="spring6-04-scope" options="-parameters" />
     </option>
   </component>
 </project>
