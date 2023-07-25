@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+    init-method属性指定初始化方法。
+    destroy-method属性指定销毁方法。
+    5步
+    -->
+    <bean id="userBean" class="com.powernode.spring6.bean.User" init-method="initBean" destroy-method="destroyBean">
+        <property name="name" value="zhangsan"/>
+    </bean>
+    <!--配置Bean后处理器。这个后处理器将作用于当前配置文件中所有的bean。
+        7步
+    -->
+    <bean class="com.powernode.spring6.bean.LogBeanPostProcessor"/>
+
+</beans>
