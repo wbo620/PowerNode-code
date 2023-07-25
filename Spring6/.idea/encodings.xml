@@ -3,5 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/spring6-02-first/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring6-03-dependency-injection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring6-04-scope/src/main/java" charset="UTF-8" />
   </component>
 </project>

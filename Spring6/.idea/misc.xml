@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/spring6-02-first/pom.xml" />
         <option value="$PROJECT_DIR$/spring6-03-dependency-injection/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-04-scope/pom.xml" />
       </list>
     </option>
   </component>
