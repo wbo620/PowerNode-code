@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="teacher" class="com.powernode.spring6.bean.Teacher" scope="prototype">
+        <property name="name" value="张三"/>
+        <property name="student" ref="stu"/>
+    </bean>
+
+    <bean id="stu" class="com.powernode.spring6.bean.Student" scope="prototype">
+        <property name="name" value="李四"/>
+        <property name="teacher" ref="teacher"/>
+    </bean>
+</beans>

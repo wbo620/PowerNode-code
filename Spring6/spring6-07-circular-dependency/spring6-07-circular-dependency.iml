@@ -3,8 +3,11 @@
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="fileset" name="Spring" removed="false">
-          <file>file://$MODULE_DIR$/src/main/resources/spring.xml</file>
+        <fileset id="fileset" name="Bean1" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/bean1.xml</file>
+        </fileset>
+        <fileset id="fileset2" name="Bean2" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/bean2.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -27,6 +30,7 @@
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.4.8" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.4.8" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.20.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.20.0" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:2.0.7" level="project" />
     <orderEntry type="library" name="Maven: jakarta.annotation:jakarta.annotation-api:2.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-core:6.0.11" level="project" />
@@ -67,9 +71,5 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:6.0.11" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.13.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:2.2" level="project" />
-    <orderEntry type="module" module-name="spring6-05-bean-instantiation" scope="TEST" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.logging.log4j:log4j-core:2.20.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.20.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.logging.log4j:log4j-slf4j2-impl:2.20.0" level="project" />
   </component>
 </module>
