@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.powernode</groupId>
-    <artifactId>spring6-08-annoatation</artifactId>
+    <artifactId>spring6-08-IoC-annoatation</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
