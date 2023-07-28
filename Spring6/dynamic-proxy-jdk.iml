@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
+    <output url="file://$MODULE_DIR$/dynamic-proxy-jdk/target/classes" />
+    <output-test url="file://$MODULE_DIR$/dynamic-proxy-jdk/target/test-classes" />
+    <content url="file://$MODULE_DIR$/dynamic-proxy-jdk">
+      <sourceFolder url="file://$MODULE_DIR$/dynamic-proxy-jdk/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dynamic-proxy-jdk/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/dynamic-proxy-jdk/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/dynamic-proxy-jdk/target" />
+    </content>
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
