@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.powernode</groupId>
-    <artifactId>springmvc-06-ssm</artifactId>
-    <version>1.0</version>
+    <artifactId>springMVC-06-ssm</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-
-
-
-
-    <!-- 集中定义依赖版本号 -->
     <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <!-- 集中定义依赖版本号 -->
+
         <!--单元测试的依赖-->
         <junit.version>4.12</junit.version>
 
         <!--spring的相关依赖-->
         <spring.version>5.2.5.RELEASE</spring.version>
+        <!--注意这个依赖要与mysql版本一致-->
+        <mysql.version>8.0.27</mysql.version>
+
+        <!--         mybatis的相关依赖-->
         <mybatis.version>3.5.1</mybatis.version>
         <!--mybaits与spring整合的依赖-->
         <mybatis.spring.version>1.3.1</mybatis.spring.version>
         <!--mybatis支持的分页插件的依赖-->
         <mybatis.paginator.version>1.2.15</mybatis.paginator.version>
-        <!--mysql的依赖-->
-        <mysql.version>5.1.32</mysql.version>
         <!--slf4j日志依赖-->
-        <slf4j.version>1.6.4</slf4j.version>
         <!--阿里的数据库连接池-->
-        <druid.version>1.1.12</druid.version>
+        <druid.version>1.2.16</druid.version>
         <!--分页插件的依赖-->
         <pagehelper.version>5.1.2</pagehelper.version>
         <!--JSTL的依赖(jsp的标准标签库)-->
@@ -39,47 +41,77 @@
         <!--jsp的依赖-->
         <jsp-api.version>2.0</jsp-api.version>
         <!--jackson的依赖,springmvc框架默认进行JSON转换的依赖工具-->
-        <jackson.version>2.15.1</jackson.version>
+        <jackson.version>2.9.6</jackson.version>
     </properties>
 
 
     <dependencies>
         <!-- spring -->
+
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>${spring.version}</version>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.4.8</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-beans</artifactId>
-            <version>${spring.version}</version>
+            <artifactId>spring-core</artifactId>
+            <version>6.0.11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>6.0.11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>3.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>3.1.2</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.30</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>1.7.30</version>
-        </dependency>
-        <dependency>
-            <groupId>org.arakhne.afc.slf4j</groupId>
-            <artifactId>slf4j-log4j</artifactId>
-            <version>17.0</version>
+            <version>6.0.11</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
-            <version>${spring.version}</version>
+            <version>6.0.11</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>3.1.2</version>
+        </dependency>
+
+
+
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework</groupId>-->
+        <!--            <artifactId>spring-context</artifactId>-->
+        <!--            <version>${spring.version}</version>-->
+        <!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework</groupId>-->
+        <!--            <artifactId>spring-beans</artifactId>-->
+        <!--            <version>${spring.version}</version>-->
+        <!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework</groupId>-->
+        <!--            <artifactId>spring-webmvc</artifactId>-->
+        <!--            <version>${spring.version}</version>-->
+        <!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework</groupId>-->
+        <!--            <artifactId>spring-jdbc</artifactId>-->
+        <!--            <version>${spring.version}</version>-->
+        <!--        </dependency>-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aspects</artifactId>
@@ -150,39 +182,40 @@
             <version>${jstl.version}</version>
         </dependency>
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>3.0.1</version>
-            <scope>provided</scope>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>6.0.0</version>
         </dependency>
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>jsp-api</artifactId>
-            <scope>provided</scope>
-            <version>${jsp-api.version}</version>
+            <groupId>jakarta.servlet.jsp</groupId>
+            <artifactId>jakarta.servlet.jsp-api</artifactId>
+            <version>3.1.1</version>
         </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>javax.servlet</groupId>-->
+<!--            <artifactId>jsp-api</artifactId>-->
+<!--            <scope>provided</scope>-->
+<!--            <version>${jsp-api.version}</version>-->
+<!--        </dependency>-->
         <!-- Jackson Json处理工具包 -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>${jackson.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version>
+            <scope>compile</scope>
+        </dependency>
+
 
     </dependencies>
 
     <!-- 插件配置 -->
     <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                    <encoding>UTF-8</encoding>
-                </configuration>
-            </plugin>
-        </plugins>
         <!--识别所有的配置文件-->
         <resources>
             <resource>
@@ -203,7 +236,6 @@
             </resource>
         </resources>
     </build>
-
 
 
 </project>

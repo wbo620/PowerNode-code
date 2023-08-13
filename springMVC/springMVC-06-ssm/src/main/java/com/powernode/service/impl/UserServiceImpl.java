@@ -10,8 +10,7 @@ package com.powernode.service.impl;
 import com.powernode.mapper.UserMapper;
 import com.powernode.pojo.User;
 import com.powernode.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.io.Resource;
+import org.springframework.beans.factory.annotation.Autowired;import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

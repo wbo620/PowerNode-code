@@ -2,7 +2,7 @@ package com.powernode.mapper;
 
 import com.powernode.pojo.User;
 import org.apache.ibatis.annotations.Param;
-import org.springframework.context.annotation.Bean;
+
 
 import java.util.List;
 
