@@ -54,7 +54,7 @@ class Lesson09JdbcTemplateApplicationTests {
     @Test
     void UpdateById() {
         String sql = "update t_car set car_num = ? where id=? ";
-        int count = jdbcTemplate.update(sql, 999,29);
+        int count = jdbcTemplate.update(sql, 999, 29);
         System.out.println(count);
     }
 
@@ -65,8 +65,8 @@ class Lesson09JdbcTemplateApplicationTests {
     void UpdateById2() {
         String sql = "update t_car set car_num =:num where id=:id ";
         Map<String, Object> map = new HashMap<>();
-        map.put("num",888);
-        map.put("id",29);
+        map.put("num", 888);
+        map.put("id", 29);
         int count = namedParameterJdbcTemplate.update(sql, map);
         System.out.println(count);
     }
@@ -82,7 +82,7 @@ class Lesson09JdbcTemplateApplicationTests {
     @Test
     void insert() {
         String sql = "insert into t_car(car_num,brand ,guide_price,produce_time,car_type) values(?,?,?,?,?)";
-        int count = jdbcTemplate.update(sql,  "1234", "奥迪", 30.00, "2020-9-8", "电动");
+        int count = jdbcTemplate.update(sql, "1234", "奥迪", 30.00, "2020-9-8", "电动");
         System.out.println(count);
     }
 }
