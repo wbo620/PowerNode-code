@@ -1,0 +1,6 @@
+com/powernode/mybatis/Lesson10MybatisApplication.class
+com/powernode/mybatis/pojo/Car.class
+com/powernode/mybatis/mapper/CarMapper.class
+com/powernode/mybatis/mapper/ProviderMapper.class
+com/powernode/mybatis/provider/SqlProvider.class
+com/powernode/mybatis/mapper/XmlMapper.class

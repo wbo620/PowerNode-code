@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.powernode.mybatis.XmlTest" time="4.606" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/hallen/Decuments/Code/power-node_code/springboot2/lesson10-mybatis/target/test-classes:/Users/hallen/Decuments/Code/power-node_code/springboot2/lesson10-mybatis/target/classes:/Users/hallen/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.1.2/spring-boot-starter-jdbc-3.1.2.jar:/Users/hallen/.m2/repository/org/springframework/boot/spring-boot-starter/3.1.2/spring-boot-starter-3.1.2.jar:/Users/hallen/.m2/repository/org/springframework/boot/spring-boot/3.1.2/spring-boot-3.1.2.jar:/Users/hallen/.m2/repository/org/springframework/spring-context/6.0.11/spring-context-6.0.11.jar:/Users/hallen/.m2/repository/org/springframework/spring-aop/6.0.11/spring-aop-6.0.11.jar:/Users/hallen/.m2/repository/org/springframework/spring-expression/6.0.11/spring-expression-6.0.11.jar:/Users/hallen/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.1.2/spring-boot-autoconfigure-3.1.2.jar:/Users/hallen/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.1.2/spring-boot-starter-logging-3.1.2.jar:/Users/hallen/.m2/repository/ch/qos/logback/logback-classic/1.4.8/logback-classic-1.4.8.jar:/Users/hallen/.m2/repository/ch/qos/logback/logback-core/1.4.8/logback-core-1.4.8.jar:/Users/hallen/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.20.0/log4j-to-slf4j-2.20.0.jar:/Users/hallen/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/hallen/.m2/repository/org/slf4j/jul-to-slf4j/2.0.7/jul-to-slf4j-2.0.7.jar:/Users/hallen/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/hallen/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/Users/hallen/.m2/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar:/Users/hallen/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/hallen/.m2/repository/org/springframework/spring-jdbc/6.0.11/spring-jdbc-6.0.11.jar:/Users/hallen/.m2/repository/org/springframework/spring-beans/6.0.11/spring-beans-6.0.11.jar:/Users/hallen/.m2/repository/org/springframework/spring-tx/6.0.11/spring-tx-6.0.11.jar:/Users/hallen/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar:/Users/hallen/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:/Users/hallen/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.1.2/spring-boot-starter-test-3.1.2.jar:/Users/hallen/.m2/repository/org/springframework/boot/spring-boot-test/3.1.2/spring-boot-test-3.1.2.jar:/Users/hallen/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.1.2/spring-boot-test-autoconfigure-3.1.2.jar:/Users/hallen/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/hallen/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar:/Users/hallen/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar:/Users/hallen/.m2/repository/net/minidev/json-smart/2.4.11/json-smart-2.4.11.jar:/Users/hallen/.m2/repository/net/minidev/accessors-smart/2.4.11/accessors-smart-2.4.11.jar:/Users/hallen/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/hallen/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/hallen/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/hallen/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/hallen/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/hallen/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/hallen/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/hallen/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/hallen/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/hallen/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/hallen/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/hallen/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/hallen/.m2/repository/org/mockito/mockito-core/5.3.1/mockito-core-5.3.1.jar:/Users/hallen/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.5/byte-buddy-agent-1.14.5.jar:/Users/hallen/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/hallen/.m2/repository/org/mockito/mockito-junit-jupiter/5.3.1/mockito-junit-jupiter-5.3.1.jar:/Users/hallen/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/Users/hallen/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/hallen/.m2/repository/org/springframework/spring-core/6.0.11/spring-core-6.0.11.jar:/Users/hallen/.m2/repository/org/springframework/spring-jcl/6.0.11/spring-jcl-6.0.11.jar:/Users/hallen/.m2/repository/org/springframework/spring-test/6.0.11/spring-test-6.0.11.jar:/Users/hallen/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/Users/hallen/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-starter/3.0.2/mybatis-spring-boot-starter-3.0.2.jar:/Users/hallen/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/3.0.2/mybatis-spring-boot-autoconfigure-3.0.2.jar:/Users/hallen/.m2/repository/org/mybatis/mybatis/3.5.13/mybatis-3.5.13.jar:/Users/hallen/.m2/repository/org/mybatis/mybatis-spring/3.0.2/mybatis-spring-3.0.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="/Users/hallen/Library/Java/JavaVirtualMachines/openjdk-19.0.2/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/hallen/Decuments/Code/power-node_code/springboot2/lesson10-mybatis/target/surefire/surefirebooter-20230818170520942_3.jar /Users/hallen/Decuments/Code/power-node_code/springboot2/lesson10-mybatis/target/surefire 2023-08-18T17-05-14_448-jvmRun1 surefire-20230818170520942_1tmp surefire_0-20230818170520942_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/hallen/Decuments/Code/power-node_code/springboot2/lesson10-mybatis/target/test-classes:/Users/hallen/Decuments/Code/power-node_code/springboot2/lesson10-mybatis/target/classes:/Users/hallen/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.1.2/spring-boot-starter-jdbc-3.1.2.jar:/Users/hallen/.m2/repository/org/springframework/boot/spring-boot-starter/3.1.2/spring-boot-starter-3.1.2.jar:/Users/hallen/.m2/repository/org/springframework/boot/spring-boot/3.1.2/spring-boot-3.1.2.jar:/Users/hallen/.m2/repository/org/springframework/spring-context/6.0.11/spring-context-6.0.11.jar:/Users/hallen/.m2/repository/org/springframework/spring-aop/6.0.11/spring-aop-6.0.11.jar:/Users/hallen/.m2/repository/org/springframework/spring-expression/6.0.11/spring-expression-6.0.11.jar:/Users/hallen/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.1.2/spring-boot-autoconfigure-3.1.2.jar:/Users/hallen/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.1.2/spring-boot-starter-logging-3.1.2.jar:/Users/hallen/.m2/repository/ch/qos/logback/logback-classic/1.4.8/logback-classic-1.4.8.jar:/Users/hallen/.m2/repository/ch/qos/logback/logback-core/1.4.8/logback-core-1.4.8.jar:/Users/hallen/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.20.0/log4j-to-slf4j-2.20.0.jar:/Users/hallen/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/hallen/.m2/repository/org/slf4j/jul-to-slf4j/2.0.7/jul-to-slf4j-2.0.7.jar:/Users/hallen/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/hallen/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/Users/hallen/.m2/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar:/Users/hallen/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/hallen/.m2/repository/org/springframework/spring-jdbc/6.0.11/spring-jdbc-6.0.11.jar:/Users/hallen/.m2/repository/org/springframework/spring-beans/6.0.11/spring-beans-6.0.11.jar:/Users/hallen/.m2/repository/org/springframework/spring-tx/6.0.11/spring-tx-6.0.11.jar:/Users/hallen/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar:/Users/hallen/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:/Users/hallen/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.1.2/spring-boot-starter-test-3.1.2.jar:/Users/hallen/.m2/repository/org/springframework/boot/spring-boot-test/3.1.2/spring-boot-test-3.1.2.jar:/Users/hallen/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.1.2/spring-boot-test-autoconfigure-3.1.2.jar:/Users/hallen/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/hallen/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar:/Users/hallen/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar:/Users/hallen/.m2/repository/net/minidev/json-smart/2.4.11/json-smart-2.4.11.jar:/Users/hallen/.m2/repository/net/minidev/accessors-smart/2.4.11/accessors-smart-2.4.11.jar:/Users/hallen/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/hallen/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/hallen/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/hallen/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/hallen/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/hallen/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/hallen/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/hallen/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/hallen/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/hallen/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/hallen/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/hallen/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/hallen/.m2/repository/org/mockito/mockito-core/5.3.1/mockito-core-5.3.1.jar:/Users/hallen/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.5/byte-buddy-agent-1.14.5.jar:/Users/hallen/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/hallen/.m2/repository/org/mockito/mockito-junit-jupiter/5.3.1/mockito-junit-jupiter-5.3.1.jar:/Users/hallen/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/Users/hallen/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/hallen/.m2/repository/org/springframework/spring-core/6.0.11/spring-core-6.0.11.jar:/Users/hallen/.m2/repository/org/springframework/spring-jcl/6.0.11/spring-jcl-6.0.11.jar:/Users/hallen/.m2/repository/org/springframework/spring-test/6.0.11/spring-test-6.0.11.jar:/Users/hallen/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/Users/hallen/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-starter/3.0.2/mybatis-spring-boot-starter-3.0.2.jar:/Users/hallen/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/3.0.2/mybatis-spring-boot-autoconfigure-3.0.2.jar:/Users/hallen/.m2/repository/org/mybatis/mybatis/3.5.13/mybatis-3.5.13.jar:/Users/hallen/.m2/repository/org/mybatis/mybatis-spring/3.0.2/mybatis-spring-3.0.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/hallen"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/Users/hallen/Library/Java/JavaVirtualMachines/openjdk-19.0.2/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/hallen/Decuments/Code/power-node_code/springboot2/lesson10-mybatis"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="UTF-8"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/hallen/Decuments/Code/power-node_code/springboot2/lesson10-mybatis/target/surefire/surefirebooter-20230818170520942_3.jar"/>
+    <property name="user.script" value="Hans"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.2+7-44"/>
+    <property name="user.name" value="hallen"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/hallen/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/2d/f_44ywls46j3c8vqc8156y240000gn/T/"/>
+    <property name="idea.version" value="2022.3.3"/>
+    <property name="com.zaxxer.hikari.pool_number" value="1"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="user.dir" value="/Users/hallen/Decuments/Code/power-node_code/springboot2/lesson10-mybatis"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="91064"/>
+    <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/hallen/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.2+7-44"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="selectAll" classname="com.powernode.mybatis.XmlTest" time="1.775">
+    <system-out><![CDATA[17:05:22.231 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.powernode.mybatis.XmlTest]: XmlTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:05:22.391 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.powernode.mybatis.Lesson10MybatisApplication for test class com.powernode.mybatis.XmlTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.2)
+
+2023-08-18T17:05:22.959+08:00  INFO 91064 --- [           main] com.powernode.mybatis.XmlTest            : Starting XmlTest using Java 19.0.2 with PID 91064 (started by hallen in /Users/hallen/Decuments/Code/power-node_code/springboot2/lesson10-mybatis)
+2023-08-18T17:05:22.961+08:00  INFO 91064 --- [           main] com.powernode.mybatis.XmlTest            : No active profile set, falling back to 1 default profile: "default"
+Logging initialized using 'class org.apache.ibatis.logging.stdout.StdOutImpl' adapter.
+2023-08-18T17:05:24.689+08:00  INFO 91064 --- [           main] com.powernode.mybatis.XmlTest            : Started XmlTest in 2.125 seconds (process running for 3.647)
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d653e41] was not registered for synchronization because synchronization is not active
+2023-08-18T17:05:25.735+08:00  INFO 91064 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-18T17:05:26.194+08:00  INFO 91064 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a96d639
+2023-08-18T17:05:26.196+08:00  INFO 91064 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+JDBC Connection [HikariProxyConnection@811287498 wrapping com.mysql.cj.jdbc.ConnectionImpl@6a96d639] will not be managed by Spring
+==>  Preparing: select id,brand,produce_time,car_num,car_type,guide_price from t_car
+==> Parameters: 
+<==    Columns: id, brand, produce_time, car_num, car_type, guide_price
+<==        Row: 2, 凯美瑞, 1999-11-10, 1001, 撚油车, 3.30
+<==        Row: 18, 凯美瑞, 1999-11-10, 1111, 撚油车, 30.30
+<==        Row: 20, 比亚迪, 2001-1-1, 1002, 电动, 20.10
+<==        Row: 21, 拉法, 2019-1-1, 1111, 燃油车, 1999.00
+<==        Row: 22, 比亚迪, 2001-1-1, 1002, 电动, 20.10
+<==        Row: 25, 长安福特, 2019-10-3, 113, 电动车, 100.00
+<==        Row: 29, 长安福特, 2019-10-3, 888, 电动车, 100.00
+<==        Row: 30, 奥迪, 2020-9-8, 9999999, 电动, 30.00
+<==        Row: 32, 大众, 2010-11-2, 1111, 燃油车, 99.90
+<==      Total: 9
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d653e41]
+[Car(id=2, carNum=1001, brand=凯美瑞, guidePrice=3.3, produceTime=1999-11-10, carType=撚油车), Car(id=18, carNum=1111, brand=凯美瑞, guidePrice=30.3, produceTime=1999-11-10, carType=撚油车), Car(id=20, carNum=1002, brand=比亚迪, guidePrice=20.1, produceTime=2001-1-1, carType=电动), Car(id=21, carNum=1111, brand=拉法, guidePrice=1999.0, produceTime=2019-1-1, carType=燃油车), Car(id=22, carNum=1002, brand=比亚迪, guidePrice=20.1, produceTime=2001-1-1, carType=电动), Car(id=25, carNum=113, brand=长安福特, guidePrice=100.0, produceTime=2019-10-3, carType=电动车), Car(id=29, carNum=888, brand=长安福特, guidePrice=100.0, produceTime=2019-10-3, carType=电动车), Car(id=30, carNum=9999999, brand=奥迪, guidePrice=30.0, produceTime=2020-9-8, carType=电动), Car(id=32, carNum=1111, brand=大众, guidePrice=99.9, produceTime=2010-11-2, carType=燃油车)]
+]]></system-out>
+  </testcase>
+</testsuite>
