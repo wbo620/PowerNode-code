@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "article",
+      "type": "com.powernode.blogadmin.settings.ArticleSettings",
+      "sourceType": "com.powernode.blogadmin.settings.ArticleSettings"
+    }
+  ],
+  "properties": [
+    {
+      "name": "article.low-read",
+      "type": "java.lang.Integer",
+      "sourceType": "com.powernode.blogadmin.settings.ArticleSettings"
+    },
+    {
+      "name": "article.top-read",
+      "type": "java.lang.Integer",
+      "sourceType": "com.powernode.blogadmin.settings.ArticleSettings"
+    }
+  ],
+  "hints": []
+}

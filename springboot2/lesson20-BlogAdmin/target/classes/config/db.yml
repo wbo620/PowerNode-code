@@ -1,0 +1,21 @@
+spring:
+    datasource:
+      type: com.zaxxer.hikari.HikariDataSource
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/powernode
+      username: root
+      password: 123123123
+    hikari:
+      auto-commit: true
+      maximum-pool-size: 10
+      minimum-idle: 10
+      #获取连接时,检测语句
+      connection-test-query: select 1
+      connection-timeout: 20000
+      #其他设置
+      data-source-properties:
+        cachePrepstmts: true
+        dataSource.cachePrepstmtst: true
+        dataSource.prepstmtCachesize: 250
+        dataSource.prepstmtCachesqlLimit: 2048
+        dataSource.useServerPrepstmts: true
