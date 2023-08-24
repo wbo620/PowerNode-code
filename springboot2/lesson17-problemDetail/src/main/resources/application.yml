@@ -1,0 +1,12 @@
+#指定初始b0oK数据，代替数据库
+product:
+  books:
+    - isbn: B001
+      name: java
+      author: lisi
+    - isbn: B002
+      name: tomcat
+      author: zhangsan
+    - isbn: B003
+      name: jvm
+      author: zhouxing
