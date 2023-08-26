@@ -25,5 +25,6 @@ public class ArticleVo {
     private Integer readCount;
     private LocalDateTime createTime;
     private LocalDateTime updateTime;
+    private String content;
 }
 

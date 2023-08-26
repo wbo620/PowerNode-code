@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>修改文章</title>
+    <link rel="shortcut icon" type="image/icon" th:href="@{/favicon_32x32.ico}"/>
+</head>
+<body>
+<div style="margin-left: 400px">
+    <form th:action="@{/article/edit}" method="post">
+
+        <table>
+            <tr th:each="article:${article}"></tr>
+            <tr>
+                <td>标题
+                </td>
+                <td><input type="text" name="title" th:value="${article.title}"></td>
+            </tr>
+            <tr>
+                <td>副标题
+                </td>
+                <td><input type="text" name="summary" size="50" th:value="${article.summary}"></td>
+            </tr>
+            <tr>
+                <td>内容
+                </td>
+                <td><textarea name="content" th:text="${article.content}" cols="60" rows="20"></textarea>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <input type="hidden" th:value="${article.id}" name="id">
+        <input type="submit" value="确认修改" style="margin-left: 200px">
+
+    </form>
+</div>
+</body>
+</html>

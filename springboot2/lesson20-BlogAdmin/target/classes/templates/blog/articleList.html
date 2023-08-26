@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>文章列表</title>
 
-    <link rel="icon" href="../favicon_32x32.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" type="image/icon" th:href="@{/favicon_32x32.ico}"/>
     <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
@@ -12,7 +12,7 @@
     <h3>阅读最多的前10篇文章</h3>
     <table border="1px" cellspacing="0px" cellpadding="2px">
         <thead>
-
+        <th>选择</th>
         <th>序号</th>
         <th>标题</th>
         <th>副标题</th>
@@ -22,16 +22,42 @@
         <th>编辑</th>
         </thead>
         <tbody>
-        <tr th:each="article,loopStatus:${articleList}">
+        <tr th:each="article,loopStatus:${article}">
+            <td><input type="checkbox" th:value="${article.id}"></td>
             <td th:text="${loopStatus.index+1}"></td>
             <td th:text="${article.title}"></td>
             <td th:text="${article.summary}"></td>
             <td th:text="${article.readCount}"></td>
             <td th:text="${article.createTime}"></td>
             <td th:text="${article.updateTime}"></td>
+
+            <td><a th:href="@{/article/get(id=${article.id})}">编辑文章属性</a></td>
+        </tr>
+        <tr>
+            <td colspan="8">
+                <table>
+                    <tr>
+                        <td>
+                            <button id="add" onclick="addArticle() ">发布文章</button>
+                        </td>
+                        <td>
+                            <button id="del">删除文章</button>
+                        </td>
+                        <td>
+                            <button>文章概览</button>
+                        </td>
+                    </tr>
+                </table>
+            </td>
         </tr>
         </tbody>
     </table>
+    <form id="frm" th:action="@{/view/addArticle}" method="get"></form>
 </div>
+<script type="text/javascript">
+    function addArticle() {
+        $("#frm").submit()
+    }
+</script>
 </body>
 </html>

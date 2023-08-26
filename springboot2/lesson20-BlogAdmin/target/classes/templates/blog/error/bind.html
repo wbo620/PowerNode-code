@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="shortcut icon" type="image/icon" th:href="@{/favicon_32x32.ico}"/>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+<h3>输入异常</h3>
+<table border="1px">
+    <thead>
+    <tr>字段</tr>
+    <tr>描述</tr>
+    </thead>
+    <tbody>
+    <tr th:each="err:${errors}">
+        <td th:text="${err.field}"></td>
+        <td th:text="${err.defaultMessage}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
