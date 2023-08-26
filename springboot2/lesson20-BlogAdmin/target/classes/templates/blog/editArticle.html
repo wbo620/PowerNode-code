@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>修改文章</title>
@@ -10,7 +10,6 @@
     <form th:action="@{/article/edit}" method="post">
 
         <table>
-            <tr th:each="article:${article}"></tr>
             <tr>
                 <td>标题
                 </td>

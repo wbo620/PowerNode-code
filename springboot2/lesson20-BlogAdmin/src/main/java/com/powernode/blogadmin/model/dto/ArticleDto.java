@@ -1,6 +1,7 @@
 package com.powernode.blogadmin.model.dto;
 
 import lombok.Data;
+import lombok.ToString;
 
 /**
  * User: hallen
@@ -8,6 +9,7 @@ import lombok.Data;
  * Time: 13:50
  */
 @Data
+@ToString
 public class ArticleDto {
     private Integer id;
     private String title;

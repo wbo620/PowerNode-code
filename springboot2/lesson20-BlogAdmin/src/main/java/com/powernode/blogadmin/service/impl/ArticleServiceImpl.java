@@ -17,9 +17,9 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * User: hallen
  * Date: 2023/8/24
  * Time: 23:29
+ * @author hallen
  */
 @Service
 @RequiredArgsConstructor
@@ -77,7 +77,6 @@ public class ArticleServiceImpl implements ArticleService {
     //保存修改的文章
     @Transactional(rollbackFor = Exception.class)
     @Override
-    //@Options
     public boolean edit(ArticleVo articleVo) {
         //修改文章属性
         int count = articleMapper.editArticle(articleVo);
