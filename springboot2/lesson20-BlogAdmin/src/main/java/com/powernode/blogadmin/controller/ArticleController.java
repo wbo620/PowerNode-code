@@ -2,10 +2,9 @@ package com.powernode.blogadmin.controller;
 
 import cn.hutool.core.bean.BeanUtil;
 import com.powernode.blogadmin.model.dto.ArticleDto;
-
+import com.powernode.blogadmin.model.param.ArticleParam;
 import com.powernode.blogadmin.model.pojo.ArticlePo;
 import com.powernode.blogadmin.model.vo.ArticleVo;
-import com.powernode.blogadmin.model.param.ArticleParam;
 import com.powernode.blogadmin.service.ArticleService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
@@ -13,7 +12,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -43,7 +42,7 @@ public class ArticleController {
         List<ArticleVo> articleVoList = BeanUtil.copyToList(articlePoList, ArticleVo.class);
 
         //添加数据
-        model.addAttribute("article", articleVoList);
+        model.addAttribute("articleList", articleVoList);
 
         //指定视图
         return "blog/articleList";
@@ -52,9 +51,10 @@ public class ArticleController {
 
     /**
      * 发布文章
-     * @Validated(ArticleParam.AddArticle.class) 校验参数
+     *
      * @param param
      * @return
+     * @Validated(ArticleParam.AddArticle.class) 校验参数
      */
     @PostMapping("/article/add")
     public String addArticle(@Validated(ArticleParam.AddArticle.class) ArticleParam param) {
@@ -94,5 +94,25 @@ public class ArticleController {
         boolean edit = articleService.edit(articleVo);
 
         return "redirect:/article/hot";
+    }
+
+    //删除文章
+    @PostMapping("/article/remove")
+    public String delArticle(Integer[] ids) {
+        System.out.println("ids=" + ids);
+        for (Integer id : ids) {
+            boolean del = articleService.deleteArticle(id);
+        }
+        return "redirect:/article/hot";
+    }
+
+    @GetMapping("/article/detail/overview")
+    @ResponseBody
+    public String queryDetail(Integer id) {
+        String top20Content="无ID";
+        if (id != null && id > 0) {
+            top20Content=articleService.queryTop20Content(id);
+        }
+        return top20Content;
     }
 }

@@ -84,4 +84,27 @@ public interface ArticleMapper {
             """)
     int editArticleDetail(ArticleVo articleVo);
 
+    @Delete("""
+            DELETE FROM article
+            WHERE id=#{id};
+            """)
+    int removeArticle(Integer id);
+
+    @Delete("""
+            DELETE FROM article_detail
+            WHERE article_id=#{id};
+            """)
+    int removeArticleDetail(Integer id);
+
+    @Select("""
+            select id, article_id, content
+            from article_detail 
+            where article_id=#{articleId};
+            """)
+    @Results(id="articleDetailMapper",value = {
+            @Result(id=true ,column = "id",property = "id"),
+            @Result(column = "content",property = "content"),
+            @Result(column = "article_id" ,property = "articleId")
+    })
+    ArticleDetailPO query(Integer articleId);
 }

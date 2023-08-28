@@ -43,4 +43,8 @@ public interface ArticleService {
      * @return
      */
     boolean edit(ArticleVo articleVo);
+
+    boolean deleteArticle(Integer id);
+
+    String queryTop20Content(Integer id);
 }

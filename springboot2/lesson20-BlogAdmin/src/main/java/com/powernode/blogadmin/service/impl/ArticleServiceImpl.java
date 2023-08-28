@@ -8,9 +8,9 @@ import com.powernode.blogadmin.model.vo.ArticleVo;
 import com.powernode.blogadmin.service.ArticleService;
 import com.powernode.blogadmin.settings.ArticleSettings;
 import lombok.RequiredArgsConstructor;
-import org.apache.ibatis.annotations.Options;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.util.StringUtils;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -19,6 +19,7 @@ import java.util.Random;
 /**
  * Date: 2023/8/24
  * Time: 23:29
+ *
  * @author hallen
  */
 @Service
@@ -86,5 +87,33 @@ public class ArticleServiceImpl implements ArticleService {
             return true;
         }
         return false;
+    }
+
+    //删除文章
+    @Transactional(rollbackFor = Exception.class)
+    @Override
+    public boolean deleteArticle(Integer id) {
+        //删除文章属性和文章内容
+        int count = articleMapper.removeArticle(id);
+        count += articleMapper.removeArticleDetail(id);
+        if (count == 2) {
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public String queryTop20Content(Integer id) {
+        String content="无内容";
+        //查询文章内容的前20个字的
+        ArticleDetailPO detailPO = articleMapper.query(id);
+        if (detailPO != null) {
+            content = detailPO.getContent();
+            if (StringUtils.hasText(content)) {
+                content = content.substring(0, content.length() >= 20 ? 20 : content.length());
+                //content = content.substring(0, 20);
+            }
+        }
+        return content;
     }
 }
